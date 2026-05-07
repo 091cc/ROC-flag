@@ -51,7 +51,7 @@ python3 "ROC_flag(240x160).py"
 
 ## 🇺🇸/🇬🇧English
 ### Overview
-This project reproduces the geometric beauty of the Republic of China flag using Python's built-in `turtle` library, strictly following the **Ministry of the Interior, R.O.C.**. It ensures geometric precision across various resolutions through rigorous mathematical formulas.
+This project reproduces the geometric beauty of the Republic of China flag using Python's built-in `turtle` library, strictly following the **Ministry of the Interior, ROC**. It ensures geometric precision across various resolutions through rigorous mathematical formulas.
 
 ### Technical Highlights & Drawing Standards
 The rendering process strictly adheres to statutory standards:
