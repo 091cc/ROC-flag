@@ -9,12 +9,18 @@
 ## 🇹🇼 正體中文
 
 ### 專案簡介
-本專案旨在透過 Python 內建的 `turtle` 函式庫，以嚴謹的數學公式重現中華民國國旗的幾何美感。專案現已擴充支援多種解析度版本，確保在不同顯示環境下均能維持完美的比例與精確度。
+本專案旨在透過 Python 內建的 `turtle` 函式庫，嚴格遵循**中華民國內政部頒布之國旗畫法**，以嚴謹的數學公式重現中華民國國旗的幾何美感。專案支援多種解析度版本，確保在不同顯示環境下均能維持完美的比例與精確度。
 
-### 技術特點
-*   **多解析度支援**：提供從 240x160 至 600x400 的多種預設尺寸。
-*   **幾何精確度**：使用三角函數與無理數公式精確定義十二道光芒的頂點，確保在縮放時不產生幾何偏差。
-*   **參數化邏輯**：基於國徽法標準比例，計算白日與藍色分隔環的相對位置。
+### 技術特點與繪製規範
+本專案之繪製流程完全符合法定標準：
+*   **設定比例**：繪製橫比縱為 3:2 的紅色長方形旗面。
+*   **繪製青天**：於左上角繪製佔全旗 $1/4$ 的青色長方形（縱橫分別為旗面之 $1/2$）。
+*   **精準定位**：以青天長方形之中心為白日圓心。
+*   **白日體比例**：白日體（中心圓）半徑為青天高度之 $1/8$。
+*   **十二道光芒**：
+    *   光芒頂點（外圓）半徑為白日體半徑之 $17/15$ 倍。
+    *   每道光芒間隔 $30^\circ$，光芒頂點位於外圓周上，基部與白日體相連。
+    *   白日體與十二道尖角光芒均採用純白色填充。
 
 ### 版本清單
 | 檔案名稱 | 解析度 | 比例 | 狀態 |
@@ -45,12 +51,18 @@ python3 "ROC_flag(240x160).py"
 
 ## 🇺🇸/🇬🇧English
 ### Overview
-This project reproduces the geometric beauty of the Republic of China flag using Python's built-in `turtle` library. By applying rigorous mathematical formulas, it ensures geometric precision across various resolutions, maintaining official proportions in any display environment.
+This project reproduces the geometric beauty of the Republic of China flag using Python's built-in `turtle` library, strictly following the **official flag specifications mandated by the Ministry of the Interior**. It ensures geometric precision across various resolutions through rigorous mathematical formulas.
 
-### Technical Highlights
-*   **Multi-resolution Support**: Preset sizes ranging from 240x160 to 600x400.
-*   **Geometric Precision**: Utilizes trigonometric and irrational formulas to define the 12 rays' vertices, preventing distortion during scaling.
-*   **Parametric Logic**: Precisely calculates the positions of the sun emblem and blue spacing ring according to national standards.
+### Technical Highlights & Drawing Standards
+The rendering process strictly adheres to statutory standards:
+*   **Aspect Ratio**: A red rectangular field with a 3:2 width-to-height ratio.
+*   **Blue Canton**: A blue rectangle in the upper-left corner occupying 1/4 of the total flag area.
+*   **Sun Placement**: The center of the blue canton serves as the center of the white sun.
+*   **Sun Emblem (Sun Body)**: The radius of the central white sun is 1/8 of the height of the blue canton.
+*   **Twelve Rays**:
+    *   The outer radius (tips of the rays) is 17/15 times the radius of the sun body.
+    *   Twelve rays are spaced at 30° intervals, with vertices positioned on the outer circle and bases connected to the sun body.
+    *   Both the sun body and the 12 pointed rays are filled in solid white.
 
 ### Available Versions
 | Filename | Resolution | Scale | Status |
