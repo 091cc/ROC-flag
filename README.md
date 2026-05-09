@@ -83,6 +83,6 @@ This project provides `.ipynb` files optimized for **Google Colab**:
 *   **Import**: Visit [Google Colab](https://colab.research.google.com), then upload the file or open it directly via the GitHub integration.
 
 ### Acknowledgments & Background
-The core geometric algorithms and logic were co-developed by **Seven** and **myself**.
+The core geometric algorithms and logic were co-developed by **[sugardaddy16](https://github.com/sugardaddy16)** and **myself**.
 
 During the development process, we spent a whole day on mathematical derivation and coordinate correction. Although we were in the critical sprint period nine days before the important exam, we still insisted on completing this project with both accuracy and beauty with our enthusiasm for program development, geometric aesthetics and patriotism. Special thanks to Seven for its correction and contribution to the complex triangular calculation.
