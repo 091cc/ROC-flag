@@ -28,7 +28,7 @@ for i in range(9):
 t.goto(0, 66)
 t.end_fill()
 
-# 4. yellow circles (yellow, diameter 12)
+# yellow circles (yellow, diameter 12)
 t.color("yellow")
 for i in range(9):
     # outer circle yellow star
