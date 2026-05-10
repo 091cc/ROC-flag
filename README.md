@@ -81,6 +81,7 @@ base = 36 * math.sin(math.pi / 9)
 | 檔案名稱 | 解析度 | 比例 | 狀態 |
 |----------|--------|------|------|
 | `iron_blood_flag(240x150).py` | 240 × 150 | 1.0x（基準） | 已上架 |
+| `iron_blood_flag(240x150).ipynb` | 240 × 150 | 1.0x | 已上架 |
 
 ---
 
@@ -147,7 +148,7 @@ This project reproduces two flags closely associated with the Republic of China 
 
 #### Technical Highlights & Drawing Standards
 
-Based on historical research by the Wuchang Uprising Comrades Association, using flag width $L = 20$ units as reference:
+Based on historical research by the [**Wuchang Uprising Comrades Association**](https://www.19111010.com.tw/story?id=93), using flag width $L = 20$ units as reference:
 
 - **Aspect Ratio**: Red rectangular field, width-to-height = **8:5**.
 - **Black 9-Pointed Star**: Schläfli symbol **{9/4}**, interior angle 20°, centered on the flag.
@@ -173,6 +174,7 @@ $$36\sin\frac{\pi}{9} \approx 12.31$$
 | Filename | Resolution | Scale | Status |
 |----------|------------|-------|--------|
 | `iron_blood_flag(240x150).py` | 240 × 150 | 1.0x (Base) | Available |
+| `iron_blood_flag(240x150).ipynb` | 240 × 150 | 1.0x | Available |
 
 ---
 
