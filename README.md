@@ -194,7 +194,7 @@ Upload to [Google Colab](https://colab.research.google.com) or open directly via
 
 ### Acknowledgments & Background
 
-The core geometric algorithms were co-developed by **[sugardaddy16](https://github.com/sugardaddy16)** and **myself**.
+The core geometric calculation method of the national flag of the Republic of China in this project was jointly developed and completed by [**sugardaddy16**](https://github.com/sugardaddy16)) and **me**.
 
 We spent a whole day on mathematical derivation and coordinate correction — nine days before an important exam — driven by our enthusiasm for programming, geometric aesthetics, and patriotism. Special thanks to Seven for contributions to the complex trigonometric calculations.
 
