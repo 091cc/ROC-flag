@@ -8,10 +8,11 @@
 
 ### 專案簡介
 
-本專案旨在透過 Python 內建的 `turtle` 函式庫，以嚴謹的數學公式重現兩面與中華民國密切相關的旗幟：
+本專案旨在透過 Python 內建的 `turtle` 函式庫，以嚴謹的數學公式重現三面與中華民國密切相關的旗幟：
 
 1. **中華民國國旗**（青天白日滿地紅）——嚴格遵循**[中華民國內政部](https://www.moi.gov.tw)頒布之國旗畫法**繪製。
 2. **鐵血十八星旗**——辛亥革命武昌起義旗幟，依據**[武昌首義同志會](https://www.19111010.com.tw)**之歷史考證繪製。
+3. **五色旗**（五族共和旗）——中華民國建國初期（1912–1928）國旗，依據旗面比例 **5:8** 繪製五色橫條。
 
 專案支援多種解析度版本，確保在不同顯示環境下均能維持完美的比例與精確度。
 
@@ -85,6 +86,35 @@ base = 36 * math.sin(math.pi / 9)
 
 ---
 
+### 三、五色旗（五族共和旗）
+
+#### 歷史背景
+
+五色旗為中華民國第一代國旗，由南京臨時政府與北洋政府採用，正式使用期間為 **1912 至 1928 年**。旗面由上而下依序排列紅、黃、藍、白、黑五色橫條，分別象徵漢、滿、蒙、回、藏五族共和。此五色同時呼應中國傳統五行學說（火、土、木、金、水），兼具五德（仁、義、禮、智、信）之意涵。1928 年北伐完成後，五色旗正式由青天白日滿地紅旗取代。
+
+#### 技術特點與繪製規範
+
+- **設定比例**：繪製縱比橫為 **5:8** 的長方形旗面。
+- **五色橫條**：由上而下均等劃分為五條，每條高度為旗面高度之 $1/5$。
+- **色彩順序**（由上而下）：
+
+| 橫條 | 顏色 | 色碼 | 象徵民族 |
+| --- | --- | --- | --- |
+| 第一條 | 紅 | `#FE0000` | 漢族 |
+| 第二條 | 黃 | `#FFC000` | 滿族 |
+| 第三條 | 藍 | `#0070C0` | 蒙古族 |
+| 第四條 | 白 | `#FFFFFF` | 回族 |
+| 第五條 | 黑 | `#000000` | 藏族 |
+
+#### 版本清單
+
+| 檔案名稱 | 解析度 | 比例 | 狀態 |
+| --- | --- | --- | --- |
+| `five_color_flag(400x250).py` | 400 × 250 | 1.0x (基準) | [已上架](https://github.com/091cc/ROC-flag/blob/main/five_color_flag(400x250).py) |
+| `five_color_flag(400x250).ipynb` | 400 × 250 | 1.0x | [已上架 Google Colab 支援](https://github.com/091cc/ROC-flag/blob/main/five_color_flag(400x250).py) |
+
+---
+
 ### 執行方式
 
 #### 1. Python 腳本版本 (.py)
@@ -117,10 +147,11 @@ python3 "ROC_flag(240x160).py"
 
 ### Overview
 
-This project reproduces two flags closely associated with the Republic of China using Python's built-in `turtle` library and rigorous mathematical formulas:
+This project reproduces three flags closely associated with the Republic of China using Python's built-in `turtle` library and rigorous mathematical formulas:
 
 1. **ROC National Flag** (Blue Sky, White Sun, and a Wholly Red Earth) — drawn strictly following the **[Ministry of the Interior, ROC](https://www.moi.gov.tw)** flag specifications.
 2. **Iron Blood 18-Star Flag** (鐵血十八星旗) — the flag of the Hubei Military Government during the 1911 Wuchang Uprising, drawn according to historical research by the **[Wuchang Uprising Comrades Association](https://www.19111010.com.tw)**.
+3. **Five-Color Flag** (五色旗, Five Races Under One Union Flag) — the first national flag of the Republic of China (1912–1928), rendered with five equal horizontal stripes in a **5:8** aspect ratio.
 
 ---
 
@@ -180,6 +211,35 @@ $$36\sin\frac{\pi}{9} \approx 12.31$$
 | --- | --- | --- | --- |
 | `iron_blood_flag(240x150).py` | 240 × 150 | 1.0x (Base) | [Available](https://github.com/091cc/ROC-flag/blob/main/Iron-Blooded_18_stars_flag.py) |
 | `iron_blood_flag(240x150).ipynb` | 240 × 150 | 1.0x | [Google Colab Support](https://github.com/091cc/ROC-flag/blob/main/Iron_Blooded_18_stars_flag.ipynb) |
+
+---
+
+### III. Five-Color Flag (Five Races Under One Union)
+
+#### Historical Background
+
+The Five-Color Flag served as the first national flag of the Republic of China, adopted by both the Nanjing Provisional Government and the Beiyang Government from **1912 to 1928**. Its five horizontal stripes — red, yellow, blue, white, and black from top to bottom — represent the Han, Manchu, Mongol, Hui, and Tibetan peoples respectively, embodying the concept of the Five Races Under One Union (五族共和). The five colors also reflect the traditional Five Elements theory (fire, earth, wood, metal, water) and the Five Virtues (benevolence, righteousness, propriety, wisdom, faithfulness). The flag was formally replaced by the Blue Sky, White Sun, and a Wholly Red Earth flag following the completion of the Northern Expedition in 1928.
+
+#### Technical Highlights & Drawing Standards
+
+- **Aspect Ratio**: A rectangular field with a **5:8** height-to-width ratio.
+- **Five Equal Stripes**: The field is divided into five equal horizontal bands, each 1/5 of the total flag height.
+- **Color Order** (top to bottom):
+
+| Stripe | Color | Hex Code | Represented People |
+| --- | --- | --- | --- |
+| 1st | Red | `#FE0000` | Han |
+| 2nd | Yellow | `#FFC000` | Manchu |
+| 3rd | Blue | `#0070C0` | Mongol |
+| 4th | White | `#FFFFFF` | Hui |
+| 5th | Black | `#000000` | Tibetan |
+
+#### Available Versions
+
+| Filename | Resolution | Scale | Status |
+| --- | --- | --- | --- |
+| `five_color_flag(400x250).py` | 400 × 250 | 1.0x (Base) | [Available](https://github.com/091cc/ROC-flag/blob/main/five_color_flag(400x250).py) |
+| `five_color_flag(400x250).ipynb` | 400 × 250 | 1.0x | [Google Colab Support](https://github.com/091cc/ROC-flag/blob/main/five_color_flag(400x250).py) |
 
 ---
 
