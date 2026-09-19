@@ -39,7 +39,7 @@
 | --- | --- | --- | --- |
 | `ROC_flag(240x160).py` | 240 × 160 | 1.0x (基準) | [已上架](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(240x160).py) |
 | `ROC_flag(240x160).ipynb` | 240 × 160 | 1.0x | [已上架 Google Colab 支援](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/ROC_flag(240x160).ipynb) |
-| `ROC_flag(600x400).py` | 600 × 400 | 2.5x | 製作中 |
+| `ROC_flag(600x400).py` | 600 × 400 | 2.5x | [已上架](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(600x400).py) |
 
 ---
 
@@ -81,7 +81,7 @@ base = 36 * math.sin(math.pi / 9)
 
 | 檔案名稱 | 解析度 | 比例 | 狀態 |
 | --- | --- | --- | --- |
-| `iron_blood_flag(240x150).py` | 240 × 150 | 1.0x (基準) | [已上架](https://github.com/091cc/ROC-flag/blob/main/Iron-Blooded_18_stars_flag.py) |
+| `iron_blood_flag(240x150).py` | 240 × 150 | 1.0x (基準) | [已上架](https://github.com/091cc/ROC-flag/blob/main/Iron-Blooded_18_stars_flag(240x150).py) |
 | `iron_blood_flag(240x150).ipynb` | 240 × 150 | 1.0x | [已上架 Google Colab 支援](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/Iron_Blooded_18_stars_flag(240x150).ipynb) |
 
 ---
