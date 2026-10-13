@@ -32,6 +32,7 @@
   - 光芒頂點（外圓）半徑為白日體半徑之 $17/15$ 倍。
   - 每道光芒間隔 $30^\circ$，光芒頂點位於外圓周上，基部與白日體相連。
   - 白日體與十二道尖角光芒均採用純白色填充。
+- **標準配色**：青天 `#14337A`・白日 `#FFFFFF`・紅地 `#CC000E`
 
 #### 版本清單
 
@@ -158,6 +159,7 @@ The rendering process strictly adheres to statutory standards:
   - The outer radius (tips of the rays) is 17/15 times the radius of the sun body.
   - Twelve rays are spaced at 30° intervals, with vertices positioned on the outer circle and bases connected to the sun body.
   - Both the sun body and the 12 pointed rays are filled in solid white.
+- **Standard colors**：Blue `#14337A`・White `#FFFFFF`・Red `#CC000E`
 
 #### Available Versions
 
