@@ -38,7 +38,6 @@
 | 檔案名稱 | 解析度 | 比例 | 狀態 |
 | --- | --- | --- | --- |
 | `ROC_flag(240x160).py` | 240 × 160 | 1.0x (基準) | [已上架](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(240x160).py) |
-| `ROC_flag(240x160).ipynb` | 240 × 160 | 1.0x | [已上架 Google Colab 支援](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/ROC_flag(240x160).ipynb) |
 | `ROC_flag(600x400).py` | 600 × 400 | 2.5x | [已上架](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(600x400).py) |
 
 ---
@@ -82,8 +81,6 @@ base = 36 * math.sin(math.pi / 9)
 | 檔案名稱 | 解析度 | 比例 | 狀態 |
 | --- | --- | --- | --- |
 | `iron_blood_flag(240x150).py` | 240 × 150 | 1.0x (基準) | [已上架](https://github.com/091cc/ROC-flag/blob/main/Iron-Blooded_18_stars_flag(240x150).py) |
-| `iron_blood_flag(240x150).ipynb` | 240 × 150 | 1.0x | [已上架 Google Colab 支援](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/Iron_Blooded_18_stars_flag(240x150).ipynb) |
-
 ---
 
 ### 三、五色旗（五族共和旗）
@@ -110,31 +107,19 @@ base = 36 * math.sin(math.pi / 9)
 
 | 檔案名稱 | 解析度 | 比例 | 狀態 |
 | --- | --- | --- | --- |
-| `five_color_flag(400x250).py` | 400 × 250 | 1.0x (基準) | [已上架](https://github.com/091cc/ROC-flag/blob/main/five_color_flag(400x250).py) |
-| `five_color_flag(400x250).ipynb` | 400 × 250 | 1.0x | [已上架 Google Colab 支援](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/ROC_flag(1912_1928)(240x150).ipynb) |
+| `five_color_flag(400x250).py` | 400 × 250 | 1.0x (基準) | [已上架](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(1912-1928)(240x150).py) |
 
 ---
 
 ### 執行方式
 
-#### 1. Python 腳本版本 (.py)
+#### Python 腳本版本 (.py)
 
 直接於終端機執行對應尺寸的檔案：
 
 ```bash
 python3 "ROC_flag(240x160).py"
 ```
-
-#### 2. Jupyter Notebook 版本 (.ipynb)
-
-本專案提供 `.ipynb` 版本以支援 Google Colab 開發環境：
-
-- 匯入方式：將檔案上傳至 [Google Colab](https://colab.research.google.com)，或直接從本 GitHub 倉庫點擊連結開啟。
-- 連結
-  1. [ROC_flag(240x160)](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/ROC_flag(240x160).ipynb)
-  2. [iron_blood_flag(240x150)](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/Iron_Blooded_18_stars_flag(240x150).ipynb)
-  3. [five_color_flag(400x250)](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/ROC_flag(1912_1928)(240x150).ipynb)
-
 ---
 
 ### 開發背景與致謝
@@ -179,8 +164,7 @@ The rendering process strictly adheres to statutory standards:
 | Filename | Resolution | Scale | Status |
 | --- | --- | --- | --- |
 | `ROC_flag(240x160).py` | 240 × 160 | 1.0x (Base) | [Available](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(240x160).py) |
-| `ROC_flag(240x160).ipynb` | 240 × 160 | 1.0x | [Google Colab Support](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/ROC_flag(240x160).ipynb) |
-| `ROC_flag(600x400).py` | 600 × 400 | 2.5x | In Progress |
+| `ROC_flag(600x400).py` | 600 × 400 | 2.5x | [Available](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(600x400).py)  |
 
 ---
 
@@ -213,8 +197,7 @@ $$36\sin\frac{\pi}{9} \approx 12.31$$
 
 | Filename | Resolution | Scale | Status |
 | --- | --- | --- | --- |
-| `iron_blood_flag(240x150).py` | 240 × 150 | 1.0x (Base) | [Available](https://github.com/091cc/ROC-flag/blob/main/Iron-Blooded_18_stars_flag.py) |
-| `iron_blood_flag(240x150).ipynb` | 240 × 150 | 1.0x | [Google Colab Support](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/Iron_Blooded_18_stars_flag(240x150).ipynb) |
+| `iron_blood_flag(240x150).py` | 240 × 150 | 1.0x (Base) | [Available](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(1912-1928)(240x150).py) |
 
 ---
 
@@ -243,31 +226,18 @@ The Five-Color Flag served as the first national flag of the Republic of China, 
 | Filename | Resolution | Scale | Status |
 | --- | --- | --- | --- |
 | `five_color_flag(400x250).py` | 400 × 250 | 1.0x (Base) | [Available](https://github.com/091cc/ROC-flag/blob/main/five_color_flag(400x250).py) |
-| `five_color_flag(400x250).ipynb` | 400 × 250 | 1.0x | [Google Colab Support](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/ROC_flag(1912_1928)(240x150).ipynb) |
 
 ---
 
 ### Usage
 
-#### 1. Python Script (.py)
+#### Python Script (.py)
 
 Execute the script via terminal:
 
 ```bash
 python3 "ROC_flag(240x160).py"
 ```
-
-#### 2. Jupyter Notebook (.ipynb)
-
-This project provides `.ipynb` files optimized for **Google Colab**:
-
-- **Import**: Upload the file to [Google Colab](https://colab.research.google.com), or open it directly from this GitHub repository by clicking the link.
-
-- **Links**
-  1. [ROC_flag(240x160)](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/ROC_flag(240x160).ipynb)
-  2. [iron_blood_flag(240x150)](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/Iron-Blooded_18_stars_flag(240x150).ipynb)
-  3. [five_color_flag(400x250)](https://colab.research.google.com/github/091cc/ROC-flag/blob/main/ROC_flag(1912_1928)(240x150).ipynb)
-
 ---
 
 ### Acknowledgments & Background
