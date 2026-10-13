@@ -10,8 +10,8 @@
 
 本專案旨在透過 Python 內建的 `turtle` 函式庫，以嚴謹的數學公式重現三面與中華民國密切相關的旗幟：
 
-1. **中華民國國旗**（青天白日滿地紅）——嚴格遵循[**中華民國內政部**](https://www.moi.gov.tw)**頒布之國旗畫法**繪製。
-2. **鐵血十八星旗**——辛亥革命武昌起義旗幟，依據[**武昌首義同志會**](https://www.19111010.com.tw)**之歷史考證**繪製。
+1. **中華民國國旗**（青天白日滿地紅）——嚴格遵循[**中華民國內政部**](https://ws.moi.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZS9jaXZpbF9sYXdfZmlsZS9kXzM4Nzc3XzQwNDU4MzMzMzMucGRm&n=ZF8zODc3N180MDQ1ODMzMzMzLnBkZg%3D%3D)**頒布之國旗畫法**繪製。
+2. **鐵血十八星旗**——辛亥革命武昌起義旗幟，依據[**武昌首義同志會**](https://www.19111010.com.tw/story?id=96)**之歷史考證**繪製。
 3. **五色旗**（五族共和旗）——中華民國建國初期（1912–1928）國旗，依據旗面比例 **5:8** 繪製五色橫條。
 
 專案支援多種解析度版本，確保在不同顯示環境下均能維持完美的比例與精確度。
@@ -138,8 +138,8 @@ python3 "ROC_flag(240x160).py"
 
 This project reproduces three flags closely associated with the Republic of China using Python's built-in `turtle` library and rigorous mathematical formulas:
 
-1. **ROC National Flag** (Blue Sky, White Sun, and a Wholly Red Earth) — drawn strictly following the **[Ministry of the Interior, ROC](https://www.moi.gov.tw)** flag specifications.
-2. **Iron Blood 18-Star Flag** (鐵血十八星旗) — the flag of the Hubei Military Government during the 1911 Wuchang Uprising, drawn according to historical research by the **[Wuchang Uprising Comrades Association](https://www.19111010.com.tw)**.
+1. **ROC National Flag** (Blue Sky, White Sun, and a Wholly Red Earth) — drawn strictly following the **[Ministry of the Interior, ROC](https://ws.moi.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvT2xkRmlsZS9jaXZpbF9sYXdfZmlsZS9kXzM4Nzc3XzQwNDU4MzMzMzMucGRm&n=ZF8zODc3N180MDQ1ODMzMzMzLnBkZg%3D%3D)** flag specifications.
+2. **Iron Blood 18-Star Flag** (鐵血十八星旗) — the flag of the Hubei Military Government during the 1911 Wuchang Uprising, drawn according to historical research by the **[Wuchang Uprising Comrades Association](https://www.19111010.com.tw/story?id=96)**.
 3. **Five-Color Flag** (五色旗, Five Races Under One Union Flag) — the first national flag of the Republic of China (1912–1928), rendered with five equal horizontal stripes in a **5:8** aspect ratio.
 
 ---
@@ -225,7 +225,7 @@ The Five-Color Flag served as the first national flag of the Republic of China, 
 
 | Filename | Resolution | Scale | Status |
 | --- | --- | --- | --- |
-| `five_color_flag(400x250).py` | 400 × 250 | 1.0x (Base) | [Available](https://github.com/091cc/ROC-flag/blob/main/five_color_flag(400x250).py) |
+| `five_color_flag(400x250).py` | 400 × 250 | 1.0x (Base) | [Available](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(1912-1928)(240x150).py) |
 
 ---
 
