@@ -6,7 +6,7 @@ t.speed(10)
 # red rectangle (600x400)
 t.penup()
 t.goto(-300, -200)
-t.color(235 / 255, 0 / 255, 0 / 255) #red
+t.color(243 / 255, 0 / 255, 1 / 255) #red
 t.pendown()
 t.begin_fill()
 for i in range(2):
@@ -19,7 +19,7 @@ t.penup()
 
 # blue rectangle (300x200)
 t.goto(-300, 0)
-t.color(0 / 255, 41 / 255, 204 / 255) #blue
+t.color(0 / 255, 40 / 255, 204 / 255) #blue
 t.pendown()
 t.begin_fill()
 for i in range(2):
@@ -31,7 +31,7 @@ t.end_fill()
 t.penup()
 
 # white triangle * 12
-t.color(1.0, 1.0, 1.0) #white
+t.color(255 / 255, 255 / 255, 255 / 255) #white
 t.goto(-150, 175)
 t.right(105)
 for i in range(12):
@@ -49,7 +49,7 @@ for i in range(12):
     t.right(120)
 
 # blue circle (r=42.5)
-t.color("blue")
+t.color(0 / 255, 40 / 255, 204 / 255)
 t.left(105)
 t.goto(-150, 57.5)
 t.pendown()
@@ -59,7 +59,7 @@ t.end_fill()
 t.penup()
 
 # white circle (r=37.5)
-t.color("white")
+t.color(255 / 255, 255 / 255, 255 / 255)
 t.goto(-150, 62.5)
 t.pendown()
 t.begin_fill()
