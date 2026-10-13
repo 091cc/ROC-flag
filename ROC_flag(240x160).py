@@ -1,13 +1,11 @@
 import turtle
-screen = turtle.Screen()
-screen.colormode(255)
 t = turtle.Turtle()
 t.speed(10)
 
 #red rectangle (240x160)
 t.penup()
 t.goto(-120,-80)
-t.color(235, 0, 0) #red
+t.color(217 / 255, 0 / 255, 19 / 255) #red
 t.pendown()
 t.begin_fill()
 for i in range(2):
@@ -20,7 +18,7 @@ t.penup()
 
 #blue rectangle (120x80)
 t.goto(-120,0)
-t.color(0, 41, 204) #blue
+t.color(20 / 255, 51 / 255, 122 / 255) #blue
 t.pendown()
 t.begin_fill()
 for i in range(2):
@@ -32,7 +30,7 @@ t.end_fill()
 t.penup()
 
 #white triangle * 12
-t.color(255, 255, 255) #white
+t.color(255 / 255, 255 / 255, 255 / 255) #white
 t.goto(-60,70)
 t.right(105)
 for i in range(12):
@@ -50,7 +48,7 @@ for i in range(12):
     t.right(120)
 
 #blue circle (r=17)
-t.color("blue")
+t.color(20 / 255, 51 / 255, 122 / 255)
 t.left(105)
 t.goto(-60,23)
 t.pendown()
@@ -60,7 +58,7 @@ t.end_fill()
 t.penup()
 
 #white circle (r=15)
-t.color("white")
+t.color(255 / 255, 255 / 255, 255 / 255)
 t.goto(-60,25)
 t.pendown()
 t.begin_fill()
