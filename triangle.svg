@@ -31,5 +31,5 @@
   <!-- 邊長標示 -->
   <text transform="translate(160.5 162.7) rotate(-75)" text-anchor="middle" fill="#0969da">30(√6 − √2)</text>
   <text transform="translate(239.5 162.7) rotate(75)" text-anchor="middle" fill="#0969da">30(√6 − √2)</text>
-  <text x="200" y="306" text-anchor="middle" fill="#1f2328">60(2 − √3)</text>
+  <text x="200" y="306" text-anchor="middle" fill="#0969da">60(2 − √3)</text>
 </svg>
