@@ -34,6 +34,28 @@
   - 白日體與十二道尖角光芒均採用純白色填充。
 - **標準配色**：青天 `#14337A`・白日 `#FFFFFF`・紅地 `#CC000E`
 
+#### 十二道光芒細節（以240 × 160為例）
+<p align="center">
+  <img src="./triangle.svg" alt="30-75-75 Triangle" width="360">
+  <br>
+  <sub>圖：青天左上角白日與十二道光芒的局部放大（240 × 160）</sub>
+</p>
+
+相鄰兩道光芒的夾角為 $30^\circ$，對應的等腰三角形頂角 $30^\circ$、底角各 $75^\circ$，三邊比為：
+
+$$
+\text{底} : \text{腰} : \text{腰} = (\sqrt{3}-1) : \sqrt{2} : \sqrt{2}
+$$
+
+代入 240 × 160 的實際尺寸：
+
+| 項目 | 算式 | 數值 |
+| --- | --- | --- |
+| 青天高度 | $160 \times \frac{1}{2}$ | 80 |
+| 白日體半徑 | $80 \times \frac{1}{8}$ | 10 |
+| 外圓半徑（光芒頂點） | $10 \times \frac{17}{15}$ | ≈ 11.33 |
+| 三角形底邊（若腰 = 外圓半徑） | $11.33 \times \frac{\sqrt{3}-1}{\sqrt{2}}$ | ≈ 5.87 |
+
 #### 版本清單
 
 | 檔案名稱 | 解析度 | 比例 | 狀態 |
@@ -81,14 +103,14 @@ base = 36 * math.sin(math.pi / 9)
 
 | 檔案名稱 | 解析度 | 比例 | 狀態 |
 | --- | --- | --- | --- |
-| `iron_blood_flag(240x150).py` | 240 × 150 | 1.0x (基準) | [已上架](https://github.com/091cc/ROC-flag/blob/main/Iron-Blooded_18_stars_flag(240x150).py) |
+| `Iron-Blooded_18_stars_flag(240x150).py` | 240 × 150 | 1.0x (基準) | [已上架](https://github.com/091cc/ROC-flag/blob/main/Iron-Blooded_18_stars_flag(240x150).py) |
 ---
 
 ### 三、五色旗（五族共和旗）
 
 #### 歷史背景
 
-五色旗為中華民國第一代國旗，由南京臨時政府與北洋政府採用，正式使用期間為 **1912 至 1928 年**。旗面由上而下依序排列紅、黃、藍、白、黑五色橫條，分別象徵漢、滿、蒙、回、藏五族共和。此五色同時呼應中國傳統五行學說（火、土、木、金、水），兼具五德（仁、義、禮、智、信）之意涵。1928 年北伐完成後，五色旗正式由青天白日滿地紅旗取代。
+五色旗為中華民國第一代國旗，由南京臨時政府與北洋政府採用，正式使用期間為 **民國元年（1912） 至 民國17年（1928）**。旗面由上而下依序排列紅、黃、藍、白、黑五色橫條，分別象徵漢、滿、蒙、回、藏五族共和。此五色同時呼應中國傳統五行學說（火、土、木、金、水），兼具五德（仁、義、禮、智、信）之意涵。1928 年北伐完成後，五色旗正式由青天白日滿地紅旗取代。
 
 #### 技術特點與繪製規範
 
@@ -108,7 +130,7 @@ base = 36 * math.sin(math.pi / 9)
 
 | 檔案名稱 | 解析度 | 比例 | 狀態 |
 | --- | --- | --- | --- |
-| `five_color_flag(400x250).py` | 400 × 250 | 1.0x (基準) | [已上架](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(1912-1928)(240x150).py) |
+| `ROC_flag(1912-1928)(240x150).py` | 400 × 250 | 1.0x (基準) | [已上架](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(1912-1928)(240x150).py) |
 
 ---
 
@@ -159,7 +181,29 @@ The rendering process strictly adheres to statutory standards:
   - The outer radius (tips of the rays) is 17/15 times the radius of the sun body.
   - Twelve rays are spaced at 30° intervals, with vertices positioned on the outer circle and bases connected to the sun body.
   - Both the sun body and the 12 pointed rays are filled in solid white.
-- **Standard colors**：Blue `#14337A`・White `#FFFFFF`・Red `#CC000E`
+- **Standard colors**: Blue `#14337A`・White `#FFFFFF`・Red `#CC000E`
+
+#### Details of the Twelve Rays (Example: 240 × 160)
+<p align="center">
+  <img src="./triangle.svg" alt="30-75-75 Triangle" width="360">
+  <br>
+  <sub>Figure: Close-up magnification of the White Sun and the twelve rays in the upper-left corner of the Blue Sky (240 × 160)</sub>
+</p>
+
+The angle between two adjacent rays is $30^\circ$, corresponding to an isosceles triangle with a vertex angle of $30^\circ$ and base angles of $75^\circ$ each. The side length ratio is:
+
+$$
+\text{Base} : \text{Side} : \text{Side} = (\sqrt{3}-1) : \sqrt{2} : \sqrt{2}
+$$
+
+Substituting the actual dimensions of 240 × 160:
+
+| Item | Formula | Value |
+| --- | --- | --- |
+| Blue Sky height | $160 \times \frac{1}{2}$ | 80 |
+| White Sun body radius | $80 \times \frac{1}{8}$ | 10 |
+| Outer circle radius (Ray vertex) | $10 \times \frac{17}{15}$ | ≈ 11.33 |
+| Triangle base (if Side = Outer circle radius) | $11.33 \times \frac{\sqrt{3}-1}{\sqrt{2}}$ | ≈ 5.87 |
 
 #### Available Versions
 
@@ -199,7 +243,7 @@ $$36\sin\frac{\pi}{9} \approx 12.31$$
 
 | Filename | Resolution | Scale | Status |
 | --- | --- | --- | --- |
-| `iron_blood_flag(240x150).py` | 240 × 150 | 1.0x (Base) | [Available](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(1912-1928)(240x150).py) |
+| `Iron-Blooded_18_stars_flag(240x150).py` | 240 × 150 | 1.0x (Base) | [Available](https://github.com/091cc/ROC-flag/blob/main/Iron-Blooded_18_stars_flag(240x150).py) |
 
 ---
 
@@ -227,7 +271,7 @@ The Five-Color Flag served as the first national flag of the Republic of China, 
 
 | Filename | Resolution | Scale | Status |
 | --- | --- | --- | --- |
-| `five_color_flag(400x250).py` | 400 × 250 | 1.0x (Base) | [Available](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(1912-1928)(240x150).py) |
+| `ROC_flag(1912-1928)(240x150).py` | 400 × 250 | 1.0x (Base) | [Available](https://github.com/091cc/ROC-flag/blob/main/ROC_flag(1912-1928)(240x150).py) |
 
 ---
 
@@ -246,6 +290,6 @@ python3 "ROC_flag(240x160).py"
 
 The core geometric algorithms for the **ROC National Flag** were co-developed by **[sugardaddy16](https://github.com/sugardaddy16)** and **myself**.
 
-During the development process, we spent a whole day on mathematical derivation and coordinate correction. Although we were in the critical sprint period nine days before the important exam, we still insisted on completing this project with both accuracy and beauty with our enthusiasm for program development, geometric aesthetics and patriotism. Special thanks to Seven for its correction and contribution to the complex trigonometric calculations.
+During the development process, we spent a whole day on mathematical derivation and coordinate correction. Although we were in the critical sprint period nine days before the important exam, we still insisted on completing this project with both accuracy and beauty with our enthusiasm for program development, geometric aesthetics and patriotism. Special thanks to Seven for his correction and contribution to the complex trigonometric calculations.
 
 The **Iron Blood 18-Star Flag** specifications are referenced from the [Wuchang Uprising Comrades Association](https://www.19111010.com.tw).
