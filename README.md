@@ -71,9 +71,7 @@ python3 "ROC_flag(1912-1928)(240x150).py"           # 五色旗
 
 相鄰兩道光芒的夾角為 $30^\circ$，對應的等腰三角形頂角 $30^\circ$、底角各 $75^\circ$，三邊比為：
 
-$$
-\text{底} : \text{腰} : \text{腰} = (\sqrt{3}-1) : \sqrt{2} : \sqrt{2}
-$$
+$$\text{底} : \text{腰} : \text{腰} = (\sqrt{3}-1) : \sqrt{2} : \sqrt{2}$$
 
 代入 240 × 160 的實際尺寸：
 
@@ -233,9 +231,7 @@ python3 "ROC_flag(1912-1928)(240x150).py"           # Five-Color Flag
 
 The angle between two adjacent rays is $30^\circ$, giving an isosceles triangle with a $30^\circ$ vertex angle and two $75^\circ$ base angles. Its side ratio is:
 
-$$
-\text{Base} : \text{Side} : \text{Side} = (\sqrt{3}-1) : \sqrt{2} : \sqrt{2}
-$$
+$$\text{Base} : \text{Side} : \text{Side} = (\sqrt{3}-1) : \sqrt{2} : \sqrt{2}$$
 
 With the actual 240 × 160 dimensions:
 
